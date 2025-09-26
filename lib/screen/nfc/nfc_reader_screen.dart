@@ -405,8 +405,8 @@ class _MrtdHomePageState extends State<MrtdHomePage> {
 
       if (mrtdData.dg2?.imageData != null) {
         rawImageData = mrtdData.dg2?.imageData;
-        tryDisplayingJpg();
-        //await tryDisplayingJp2();
+        //tryDisplayingJpg();
+        tryDisplayingJp2();
       }
       _scrollController.animateTo(300.0,
           duration: const Duration(milliseconds: 500), curve: Curves.ease);

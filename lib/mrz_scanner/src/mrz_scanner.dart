@@ -190,7 +190,7 @@ class MRZScannerState extends State<MRZScanner> {
       // }
 
 
-      if (results.length == 3) {
+      if (results.length == 2) {
 
         _parseScannedText([...result]);
 
@@ -200,7 +200,7 @@ class MRZScannerState extends State<MRZScanner> {
       results.add(result.join());
 
 
-      if (results.length > 3) {
+      if (results.length > 2) {
 
         results.removeAt(0);
 
